@@ -1,0 +1,74 @@
+[
+  {
+    "WrestlerId": 1,
+    "FirstName": "David",
+    "LastName": "Tran",
+    "WeightClass": 103
+  },
+  {
+    "WrestlerId": 2,
+    "FirstName": "Hannah",
+    "LastName": "Tran",
+    "WeightClass": 112
+  },
+  {
+    "WrestlerId": 3,
+    "FirstName": "Bart",
+    "LastName": "Smith",
+    "WeightClass": 119
+  },
+  {
+    "WrestlerId": 4,
+    "FirstName": "Logan",
+    "LastName": "Peterson",
+    "WeightClass": 125
+  },
+  {
+    "WrestlerId": 5,
+    "FirstName": "Daniel",
+    "LastName": "Jefferson",
+    "WeightClass": 103
+  },
+  {
+    "WrestlerId": 6,
+    "FirstName": "Martin",
+    "LastName": "Peters",
+    "WeightClass": 125
+  },
+  {
+    "WrestlerId": 7,
+    "FirstName": "William",
+    "LastName": "Fred",
+    "WeightClass": 145
+  },
+  {
+    "WrestlerId": 8,
+    "FirstName": "Piercy",
+    "LastName": "Young",
+    "WeightClass": 152
+  },
+  {
+    "WrestlerId": 9,
+    "FirstName": "Tyler",
+    "LastName": "Williams",
+    "WeightClass": 160
+  },
+  {
+    "WrestlerId": 10,
+    "FirstName": "Joe",
+    "LastName": "Snizel",
+    "WeightClass": 170
+  },
+  {
+    "WrestlerId": 11,
+    "FirstName": "Aaron",
+    "LastName": "Ball",
+    "WeightClass": 182
+  },
+  {
+    "WrestlerId": 12,
+    "FirstName": "Tyrone",
+    "LastName": "Young",
+    "WeightClass": 285
+  }
+]
