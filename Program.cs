@@ -57,7 +57,7 @@ namespace SQLSeed
                     sql_string += singleWrestlerString;
                     }
 
-                // Remove the very last comma from the string.  
+                // Remove the very last character from the string (which is an unwanted comma ",") that was added during the last foreach iteration)
                 sql_string = sql_string.Remove(sql_string.Length -1, 1);
                 Console.WriteLine("\n" + sql_string);
 
