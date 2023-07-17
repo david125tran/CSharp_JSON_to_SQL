@@ -1,5 +1,5 @@
 # CSharp_to_SQL_dapper  
-This project uses the the dapper mapper (an open-source object-relational mapping (ORM)  
+This project uses the dapper mapper (an open-source object-relational mapping (ORM)  
 library for .NET and .NET Core applications). I parse JSON data into string and then  
 use the dapper library to inject it into a MS SQL table as TSQL code.  
   
