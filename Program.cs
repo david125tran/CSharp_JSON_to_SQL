@@ -67,15 +67,15 @@ namespace SQLSeed
                 // Reprotect the "WrestlerId" field
                 dataContextDapper.ExecuteSQL("SET IDENTITY_INSERT WrestlingTeam.Wrestlers OFF");
 
-                // Tell the user what database has been updated.  
+                // Figure out what database we are currently in (for potential debugging if we are in the wrong database)
                 string currentDatabase = "SELECT DB_NAME() AS [Current Database]";                  // To update a different database, change the connection string in "appsettings.json".
                 currentDatabase = dataContextDapper.LoadSQL<string>(currentDatabase);
-                Console.WriteLine("The following database has been updated:   " + currentDatabase.ToString());
 
-                // Write the result 
+                // Tell the user if injection of data into the table was successful.
                 if (result)
                 {
-                    Console.WriteLine("The SQL database design schema has been generated");    
+                    Console.WriteLine("The following database has been updated:   " + currentDatabase.ToString());
+                    Console.WriteLine("The data has been injected into the T SQL table");    
                 }
 
                 }
