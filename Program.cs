@@ -75,7 +75,7 @@ namespace SQLSeed
                 if (result)
                 {
                     Console.WriteLine("The following database has been updated:   " + currentDatabase.ToString());
-                    Console.WriteLine("The data has been injected into the T SQL table");    
+                    Console.WriteLine("The data has been injected into the TSQL table");    
                 }
 
                 }
