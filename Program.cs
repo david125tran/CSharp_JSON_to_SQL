@@ -27,7 +27,7 @@ namespace SQLSeed
             // Load our "Wrestlers.json" JSON data into a string:
             string wrestlersJson = System.IO.File.ReadAllText("Wrestlers.json");
 
-            // Deserialize the file (Convert string to object):
+            // Deserialize the file (Convert string to object that inherits from the Wrestlers class):
             IEnumerable<Wrestlers>? wrestlersObject = JsonConvert.DeserializeObject<IEnumerable<Wrestlers>>(wrestlersJson);
 
             if (wrestlersObject != null)      // If we have entries in the "Wrestlers.json" file, we execute:
